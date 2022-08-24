@@ -8,6 +8,7 @@ pipeline {
       }
       steps {
         echo 'Hello Jenkins'
+        echo 'this is the second step'
       }
     }
 
