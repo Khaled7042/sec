@@ -12,14 +12,13 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    @Value("${user1.id1}")
-    String userId1;
-    @Value("${user1.password1}")
-    String password1;
-    @Value("${user2.id2}")
-    String userId2;
-    @Value("${user2.password2}")
-    String password2;
+    String userId1 = "user";
+
+    String password1 = "$2a$10$qP7GjYfrVAUXn.katgOswONWEsbyIdQNjOgZ5tc92JKMYHr7DVNNO";
+
+    String userId2 = "admin";
+
+    String password2 = "$2a$10$qP7GjYfrVAUXn.katgOswONWEsbyIdQNjOgZ5tc92JKMYHr7DVNNO";
 
 
 
